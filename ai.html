@@ -1,24 +1,159 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
-    <title>Yuriy Astapov's Website
-    </title>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
+<!DOCTYPE HTML>
+<html lang="en">
 
-  <body>
-    <h1>Yuriy Astapov</h1>
-    <h3>CS Student at TAMU</h3>
-    <table>
-      <tr>
-        <th><a href="index.html">Home</a></th>
-        <th><a href="portfolio.html">Portfolio</a></th>
-        <th><a href="qualifications.html">Qualifications</a></th>
-        <th><a href="service.html">Service</a></th>
-        <th>AI-Page</th>
-      </tr>   
-    </table>
-    <h3><a href="https://github.com/astapyur">GitHub</a></h3>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuriy Astapov's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .content {
+            width: 70%;
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color: #e0e0e0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #007bff;
+            margin-top: 0;
+        }
+
+        p {
+            margin: 15px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .box {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-left: 4px solid #007bff;
+            margin-top: 20px;
+        }
+
+        .box pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: monospace;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Yuriy Astapov</h1>
+        <h3>CS Student at Texas A&M University</h3>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="qualifications.html">Qualifications</a>
+        <a href="service.html">Service</a>
+        <a href="ai.html">AI Page</a>
+    </nav>
+
+    <main>
+        <div class="content">
+            <h2>About Me</h2>
+            <p>Hello! My name is Yuriy Astapov, and I'm currently pursuing a Bachelor's degree in Computer Science with a Minor in Mathematics at Texas A&M University. I have a strong passion for software development and problem-solving, and I'm always eager to expand my knowledge in the field.</p>
+            <p>In addition to my coursework in C++, Java, Python, Linux, data structures, and algorithms, I'm working on a mobile app that helps roommates manage their finances. This project has given me the opportunity to learn and work with technologies like React Native, Node.js, and Firebase. Collaboration and communication have been key skills I've honed during this project, alongside technical proficiency.</p>
+            <p>As I look towards my future, I'm excited to explore various fields within computer science, including cybersecurity, computation theory, and artificial intelligence. My curiosity drives me to seek out projects that not only interest me but also challenge me to grow as a developer.</p>
+            <p>Outside of academics, I enjoy reading, weightlifting, and participating in sports, especially judo and taekwondo. I hold a 4th-degree black belt in WTF Taekwondo, a journey that required over a decade of dedication. Volunteering at taekwondo schools has also allowed me to give back to the community while staying active.</p>
+            <p>I’m excited about the possibilities the future holds and look forward to contributing to innovative and impactful projects.</p>
+
+            <h2>Other Interests</h2>
+            <ul>
+                <li><a href="https://www.reddit.com/r/cybersecurity/comments/1euqacd/a_furry_hacktivist_group_has_breached_disney/" target="_blank">Cybersecurity Article</a></li>
+                <li><a href="https://medium.com/@sadozye86/microsoft-apple-and-nvidia-invest-in-openai-saving-it-from-bankruptcy-and-boosting-its-value-to-40cff13d032a" target="_blank">AI Article</a></li>
+                <li><a href="https://unity.com/blog/news/plan-pricing-and-packaging-updates" target="_blank">Game Development Blog</a></li>
+                <li><a href="https://codehiddenlanguage.com/" target="_blank">CS Book I Like</a></li>
+                <li><a href="https://www.youtube.com/watch?v=MUp9bdS5Csg" target="_blank">Taekwondo Video</a></li>
+                <li><a href="https://www.youtube.com/watch?v=5EEtMguiBtw" target="_blank">MMA Video</a></li>
+                <li><a href="https://www.youtube.com/watch?v=TX3qgBN_wf4" target="_blank">Lifting Video</a></li>
+                <li><a href="https://www.gutenberg.org/ebooks/1947" target="_blank">Book I Like</a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar">
+            <h2>Original Prompt</h2>
+            <div class="box">
+                <pre>
+Generate a page that is an improved version of my index.html page I have written below. Improve not only the layout using only html and css, but also improve the text I wrote. On the side, put a box that contains the prompt I gave you so I can show my professor I followed the rules.
+                </pre>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Yuriy Astapov. All Rights Reserved.</p>
+    </footer>
+</body>
+
 </html>

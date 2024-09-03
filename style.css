@@ -5,6 +5,11 @@ table {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 50;
     margin-bottom: 100;
+    table-layout: fixed;
+}
+
+th {
+    width: 50%;
 }
 
 h1 {
@@ -22,6 +27,8 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.list {
-
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10;
+    font-size: 18;
 }
