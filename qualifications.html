@@ -4,42 +4,62 @@
     <title>Yuriy Astapov's Website
     </title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link id="currStyle" rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
-    <h1>Yuriy Astapov</h1>
-    <h3>CS Student at TAMU</h3>
-    <table>
-      <tr>
-        <th><a href="index.html">Home</a></th>
-        <th><a href="portfolio.html">Portfolio</a></th>
-        <th>Qualifications</th>
-        <th><a href="service.html">Service</a></th>
-        <th><a href="ai.html">AI-Page</a></th>
-      </tr>   
-    </table>
-    <table style="background-color: white">
-        <tr>
-            <th><a href="Official Resume.pdf">Resume</a></th>
-        </tr>
-    </table>
-    <h1>Technical Skills</h1>
-    <ul>
-        <li>Programming Languages: C++, Java, Javascript, Python</li>
-        <li>Frameworks/Libraries:  NumPy, Matplotlib </li>
-        <li>Dev Tools: GitHub, Node JS, React Native, Expo Go, VS Code, Spyder, PyCharm, JCreator, 
-            Firebase</li>
-        <li>Languages: English (Native), Russian (Conversational), Ukrainian (Conversational)</li>
-        <li>Strong written and verbal communication skills</li>
-        <li>Dependable collaborative skills</li>
-    </ul>
-    <h1>Professional Interests</h1>
-    <ul>
-        <li>Cybersecurity: With the recent boom in AI development, attacks are becoming more efficient and effective. They can impersonate people much better than many actual people, making phishing more dangerous.</li>
-        <li>AI/Machine Learning: Also because of the recent boom, it seems AI has developed in the past few years faster than many could have imagined. I just find it truly amazing how easily it can generate convincing images, videos, and texts, and that is something I would like to work on.</li>
-        <li>Game development: This is more of a fleeting interest. I used to play video games a lot more in the past but as I finished my first few CS courses in college and worked on projects with teams, I appreciated the work that was put into the games I used to love to play.</li>
-        <li>Theory of Computation: I would rather work in the previous fields more but this is just something that I picked up after taking Discrete Structures in Computing. I was just fascinated and had a lot of fun learning about theory in computer science.</li>
-    </ul>
+    <div class="pageContainer">
+      <script src="functions.js"></script>
+      <div class="headerContainer">
+        <h1>Yuriy Astapov</h1>
+        <h3>CS Student at TAMU</h3>
+      </div>
+      <div id="linksButtons">
+        <a href="https://www.github.com/astapyur">
+          <button>GitHub</button>
+        </a>
+        <a href="https://www.linkedin.com/in/yuriy-astapov-493442326/">
+          <button>LinkedIn</button>
+        </a>
+      </div>
+      <div class="leftContainer">
+        <table>
+          <tr>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="portfolio.html">Portfolio</a></td>
+            <td><b>Qualifications</b></td>
+            <td><a href="service.html">Service</a></td>
+            <td><a href="ai.html">AI-Page</a></td>
+          </tr>   
+        </table>
+      </div>
+      <div class="rightContainer">
+        <table>
+            <tr>
+                <th><a href="Official Resume.pdf">Resume</a></th>
+            </tr>
+        </table>
+        <h1>Technical Skills</h1>
+        <ul>
+            <li>Programming Languages: C++, Java, Javascript, Python</li>
+            <li>Frameworks/Libraries:  NumPy, Matplotlib </li>
+            <li>Dev Tools: GitHub, Node JS, React Native, Expo Go, VS Code, Spyder, PyCharm, JCreator, 
+                Firebase</li>
+            <li>Languages: English (Native), Russian (Conversational), Ukrainian (Conversational)</li>
+            <li>Strong written and verbal communication skills</li>
+            <li>Dependable collaborative skills</li>
+        </ul>
+        <h1>Professional Interests</h1>
+        <ul>
+            <li>Cybersecurity: With the recent boom in AI development, attacks are becoming more efficient and effective. They can impersonate people much better than many actual people, making phishing more dangerous.</li>
+            <li>AI/Machine Learning: Also because of the recent boom, it seems AI has developed in the past few years faster than many could have imagined. I just find it truly amazing how easily it can generate convincing images, videos, and texts, and that is something I would like to work on.</li>
+            <li>Game development: This is more of a fleeting interest. I used to play video games a lot more in the past but as I finished my first few CS courses in college and worked on projects with teams, I appreciated the work that was put into the games I used to love to play.</li>
+            <li>Theory of Computation: I would rather work in the previous fields more but this is just something that I picked up after taking Discrete Structures in Computing. I was just fascinated and had a lot of fun learning about theory in computer science.</li>
+        </ul>
+      </div>
+      <div id="styleButton" class="button">
+        <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+      </div>
+    </div>
   </body>
 </html> 

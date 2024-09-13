@@ -4,34 +4,52 @@
     <title>Yuriy Astapov's Website
     </title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link id="currStyle" rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
-    <h1>Yuriy Astapov</h1>
-    <h3>CS Student at TAMU</h3>
-    <table>
-      <tr>
-        <th><a href="index.html">Home</a></th>
-        <th><a href="portfolio.html">Portfolio</a></th>
-        <th><a href="qualifications.html">Qualifications</a></th>
-        <th>Service</th>
-        <th><a href="ai.html">AI-Page</a></th>
-      </tr>   
-    </table>
-    <table>
-        <tr>
-            <th><h2>World Taekwondo Academy - Assistant</h2>
-                <h3>August 2015 - February 2019</h3>
-                <img src="tkd.png" height = 200>
-                <p style="font-weight: normal;">As a teenager I taught younger students at my local taekwondo academy. I helped masters and instructors teach classes, aided during belt tests and other school events, and managed children ages 5-10. This experience helped me develop patience, resposibility, leadership, and teamworking skills with my fellow assistants. Although I no longer work as an Assistant Instructor at my current school, I still help out during belt tests, black belt tests, and classes whenever I am back home. </p>
-            </th>
-            <th><h2>Castle - Prospective Member</h2>
-                <h3>August 2024 - Present</h3>
-                <img src="castle.jpg" height = 190>
-                <p style="font-weight: normal;">Although I haven't officially become a member of this organization yet, I am in the process of applying. I haven't been as active in volunteering my time to service others as previous years, but I hope to meet like minded people, develop my leadership and teamworking skills, and serve others in need. </p>
-            </th>
-        </tr>
-    </table>
+    <div class="pageContainer">
+      <script src="functions.js"></script>
+      <div class="headerContainer">
+        <h1>Yuriy Astapov</h1>
+        <h3>CS Student at TAMU</h3>
+      </div>
+      <div id="linksButtons">
+        <a href="https://www.github.com/astapyur">
+          <button>GitHub</button>
+        </a>
+        <a href="https://www.linkedin.com/in/yuriy-astapov-493442326/">
+          <button>LinkedIn</button>
+        </a>
+      </div>
+      <div class="leftContainer">
+        <table>
+          <tr>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="portfolio.html">Portfolio</td>
+            <td><a href="qualifications.html">Qualifications</a></td>
+            <td><b>Service</b></td>
+            <td><a href="ai.html">AI-Page</a></td>
+          </tr>   
+        </table>
+      </div>
+      <table>
+          <tr>
+              <td><h2>World Taekwondo Academy - Assistant</h2>
+                  <h3>August 2015 - February 2019</h3>
+                  <img src="tkd.png" height = 200>
+                  <p style="font-weight: normal;">As a teenager I taught younger students at my local taekwondo academy. I helped masters and instructors teach classes, aided during belt tests and other school events, and managed children ages 5-10. This experience helped me develop patience, resposibility, leadership, and teamworking skills with my fellow assistants. Although I no longer work as an Assistant Instructor at my current school, I still help out during belt tests, black belt tests, and classes whenever I am back home. </p>
+              </td>
+              <td><h2>Castle - Prospective Member</h2>
+                  <h3>August 2024 - Present</h3>
+                  <img src="castle.jpg" height = 190>
+                  <p style="font-weight: normal;">Although I haven't officially become a member of this organization yet, I am in the process of applying. I haven't been as active in volunteering my time to service others as previous years, but I hope to meet like minded people, develop my leadership and teamworking skills, and serve others in need. </p>
+              </td>
+          </tr>
+      </table>
+      <div id="styleButton">
+        <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+      </div>
+    </div>
   </body>
 </html>
